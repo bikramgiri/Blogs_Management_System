@@ -14,6 +14,9 @@ connectDB ();
 app.use ("/api", require ("./routes/categoryRoutes"));
 app.use ("/api", require ("./routes/blogRoutes"));
 
+// Static folder for images
+app.use("/storage", express.static("storage"));
+
 const PORT = process.env.PORT;
 app.listen (PORT, () => {
     console.log (`Server is running on port ${PORT}`);

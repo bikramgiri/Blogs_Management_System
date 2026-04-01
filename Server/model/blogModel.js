@@ -9,7 +9,7 @@ const blogSchema = new Schema({
   },
   image: {
     type: String,
-    default: null,
+    required: true,
   },
   description: {
     type: String,

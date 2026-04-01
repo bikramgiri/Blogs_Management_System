@@ -7,9 +7,9 @@ const categorySchema = new Schema({
     required: true,
     unique: true
   },
-  image: {
+  categoryImage: {
     type: String,
-    default: null,
+    required: true
   },
   categoryDescription: {
     type: String,
