@@ -1,8 +1,8 @@
 
 function App() {
 
-  return (
-    <div>
+  return ( 
+    <div className="text-blue-700 text-xl font-medium">
       Hello World!
     </div>
   )
